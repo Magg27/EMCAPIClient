@@ -27,10 +27,10 @@ import java.util.UUID;
 @SuppressWarnings("unused")
 public class EMCAPIClient {
 
-    public static final URI EARTHMC_API_URI = URI.create("https://api.earthmc.net/v3/");
+    public static final URI EARTHMC_API_URI = URI.create("https://api.earthmc.net/v4/");
 
     private final RequestManager requestManager = new RequestManager();
-    private Server server = Server.AURORA;
+    private Server server = Server.NOSTRA;
 
     /**
      * Create a new instance of EMCAPIClient with the default server unchanged

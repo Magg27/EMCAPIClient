@@ -7,11 +7,7 @@ public class Server {
 
     private final String name;
 
-    /**
-     * Nova no longer exists and never had an API implementation
-     */
-    public static final Server NOVA = new Server("nova");
-    public static final Server AURORA = new Server("aurora");
+    public static final Server NOSTRA = new Server("nostra");
 
     public Server(String name) {
         this.name = name;
